@@ -1,8 +1,8 @@
 //全てのReducersを総括する　パッケージ必要
 
 import { combineReducers } from 'redux'
-import count from './count'
+import events from './events'
 
 
-export default combineReducers({ count })
+export default combineReducers({ events })
 //今回は状態を管理するのは１つだけ
